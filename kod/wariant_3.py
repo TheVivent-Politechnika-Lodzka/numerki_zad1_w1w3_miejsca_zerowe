@@ -64,7 +64,7 @@ def search_by_error(func, error, eps, a, b):
     '''
     points = []
 
-    # jeżeli user podział przedział odwrotnie, to zamień
+    # jeżeli user podał przedział odwrotnie, to zamień
     if (a > b): a,b = b,a
 
 
